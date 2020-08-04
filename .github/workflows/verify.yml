@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        project: [lit-element]
+        project: [lit-element, lit-element-ts-esbuild]
     steps:
       - uses: actions/checkout@v2
 
