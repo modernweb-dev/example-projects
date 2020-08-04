@@ -8,11 +8,19 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        project: [lit-element, lit-element-ts-esbuild]
+        project:
+          [
+            lit-element,
+            lit-element-ts-esbuild,
+            lit-element-ts-tsc,
+            preact-htm,
+            preact-jsx,
+            preact-tsx,
+          ]
     steps:
       - uses: actions/checkout@v2
 
-      - name: Setup Node 
+      - name: Setup Node
         uses: actions/setup-node@v1
         with:
           node-version: 12
