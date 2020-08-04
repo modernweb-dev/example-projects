@@ -17,11 +17,10 @@ jobs:
         with:
           node-version: 12
 
-      - name: Go to project
-        run: cd ${{ matrix.project }}
-
       - name: Install dependencies
+        working-directory: ${{ matrix.project }}
         run: npm ci
 
-      - name: Lint
+      - name: Test
+        working-directory: ${{ matrix.project }}
         run: npm run test
