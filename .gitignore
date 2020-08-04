@@ -1,0 +1,25 @@
+## editors
+/.idea
+/.vscode
+
+## system files
+.DS_Store
+
+## npm
+/*/node_modules
+npm-debug.log
+yarn-error.log
+/*/yarn.lock
+
+## temp folders
+/.tmp/
+
+## testing
+/*/coverage
+local.log
+
+## build output
+dist
+tsconfig.tsbuildinfo
+/*/dist
+

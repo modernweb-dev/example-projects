@@ -1,0 +1,27 @@
+name: Verify changes
+
+on: pull_request
+
+jobs:
+  verify:
+    name: Verify changes
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        project: [lit-element]
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Node 
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: Go to project
+        run: cd ${{ matrix.project }}
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run test
