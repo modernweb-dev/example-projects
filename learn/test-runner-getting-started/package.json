@@ -1,0 +1,13 @@
+{
+  "name": "@web/learn-test-runner-getting-started",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "web-test-runner \"test/**/*.test.js\" --node-resolve"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "2.5.21",
+    "@web/test-runner": "0.6.60"
+  }
+}

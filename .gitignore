@@ -6,7 +6,7 @@
 .DS_Store
 
 ## npm
-/*/node_modules
+node_modules
 npm-debug.log
 yarn-error.log
 /*/yarn.lock
@@ -15,7 +15,7 @@ yarn-error.log
 /.tmp/
 
 ## testing
-/*/coverage
+coverage
 local.log
 
 ## build output
@@ -23,4 +23,3 @@ dist
 tsconfig.tsbuildinfo
 /*/dist
 /*/tsc-out
-

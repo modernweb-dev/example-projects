@@ -8,8 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        project:
-          [
+        project: [
             lit-element,
             lit-element-ts-esbuild,
             lit-element-ts-tsc,
@@ -18,6 +17,11 @@ jobs:
             preact-tsx,
             puppeteer,
             playwright,
+            learn/test-runner-getting-started,
+            learn/test-runner-watch-and-debug,
+            # Running multiple playwright does not work?
+            # learn/test-runner-playwright,
+            learn/test-runner-responsive,
           ]
     steps:
       - uses: actions/checkout@v2
