@@ -10,7 +10,7 @@
     "test:watch": "web-test-runner test/**/*.test.jsx --watch"
   },
   "dependencies": {
-    "preact": "10.4.6"
+    "preact": "10.4.7"
   },
   "devDependencies": {
     "@bundled-es-modules/chai": "4.2.2",
