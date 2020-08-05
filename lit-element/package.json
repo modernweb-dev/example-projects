@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@open-wc/testing": "2.5.21",
-    "@web/test-runner": "0.6.59",
+    "@web/test-runner": "0.6.60",
     "deepmerge": "4.2.2",
     "es-dev-server": "1.57.2"
   }
