@@ -21,7 +21,7 @@
     "@open-wc/testing": "2.5.20",
     "@types/node": "13.13.15",
     "@web/dev-server-esbuild": "0.1.5",
-    "@web/test-runner": "0.6.57",
+    "@web/test-runner": "0.6.58",
     "deepmerge": "4.2.2",
     "es-dev-server": "1.57.2",
     "tslib": "1.13.0",
