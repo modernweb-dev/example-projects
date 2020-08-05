@@ -1,0 +1,14 @@
+{
+  "name": "@web/learn-test-runner-playwright",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "web-test-runner \"test/**/*.test.js\" --node-resolve --playwright --browsers chromium firefox webkit"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "2.5.21",
+    "@web/test-runner": "0.6.60",
+    "@web/test-runner-playwright": "0.4.18"
+  }
+}

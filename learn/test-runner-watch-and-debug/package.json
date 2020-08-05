@@ -1,0 +1,14 @@
+{
+  "name": "@web/learn-test-runner-watch-and-debug",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "web-test-runner \"test/**/*.test.js\" --node-resolve",
+    "test:watch": "web-test-runner \"test/**/*.test.js\" --node-resolve --watch"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "2.5.21",
+    "@web/test-runner": "0.6.60"
+  }
+}

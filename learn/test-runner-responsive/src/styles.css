@@ -1,0 +1,9 @@
+.card {
+  background: rgb(0, 255, 0);
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    background: rgb(255, 0, 0);
+  }
+}
