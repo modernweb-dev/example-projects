@@ -16,6 +16,8 @@ jobs:
             preact-htm,
             preact-jsx,
             preact-tsx,
+            puppeteer,
+            playwright,
           ]
     steps:
       - uses: actions/checkout@v2
