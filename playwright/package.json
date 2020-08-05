@@ -16,7 +16,7 @@
     "lit-html": "1.2.1"
   },
   "devDependencies": {
-    "@open-wc/testing": "2.5.20",
+    "@open-wc/testing": "2.5.21",
     "@web/test-runner": "0.6.59",
     "@web/test-runner-playwright": "0.4.17"
   }
