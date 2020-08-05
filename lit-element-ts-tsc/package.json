@@ -16,16 +16,16 @@
     "tsc:watch": "tsc --watch"
   },
   "dependencies": {
-    "lit-element": "^2.3.1",
-    "lit-html": "^1.1.2"
+    "lit-element": "2.3.1",
+    "lit-html": "1.2.1"
   },
   "devDependencies": {
-    "@open-wc/testing": "^2.0.0",
+    "@open-wc/testing": "2.5.20",
     "@types/node": "13.13.15",
-    "@web/test-runner": "^0.6.8",
-    "deepmerge": "^4.2.2",
-    "es-dev-server": "^1.55.0",
-    "tslib": "^1.11.0",
-    "typescript": "^4.0.0-beta"
+    "@web/test-runner": "0.6.57",
+    "deepmerge": "4.2.2",
+    "es-dev-server": "1.57.2",
+    "tslib": "1.13.0",
+    "typescript": "4.0.0-dev.20200803"
   }
 }
