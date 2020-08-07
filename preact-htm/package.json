@@ -15,6 +15,6 @@
   },
   "devDependencies": {
     "@bundled-es-modules/chai": "4.2.2",
-    "@web/test-runner": "0.6.61"
+    "@web/test-runner": "0.6.62"
   }
 }
