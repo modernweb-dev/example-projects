@@ -1,5 +1,5 @@
 import { expect } from '@open-wc/testing';
-import { setViewport } from '@web/test-runner-helpers';
+import { setViewport } from '@web/test-runner-commands';
 import { isMobile } from '../src/isMobile';
 
 describe('isMobile', () => {

@@ -1,5 +1,5 @@
 import { expect, fixture, html } from '@open-wc/testing';
-import { setViewport } from '@web/test-runner-helpers';
+import { setViewport } from '@web/test-runner-commands';
 
 describe('card', () => {
   before(() => {
