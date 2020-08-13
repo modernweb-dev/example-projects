@@ -1,0 +1,17 @@
+{
+  "name": "@web/learn-test-runner-getting-started",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "web-test-runner",
+    "test:watch": "web-test-runner --watch"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "2.5.21",
+    "@web/test-runner": "0.7.3"
+  },
+  "dependencies": {
+    "@popperjs/core": "2.4.4"
+  }
+}
