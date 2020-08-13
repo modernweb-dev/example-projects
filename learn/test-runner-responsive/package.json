@@ -10,6 +10,6 @@
   "devDependencies": {
     "@open-wc/testing": "2.5.21",
     "@web/test-runner": "0.7.3",
-    "@web/test-runner-commands": "0.1.1"
+    "@web/test-runner-commands": "0.1.2"
   }
 }
