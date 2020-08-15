@@ -7,7 +7,7 @@
     "test": "web-test-runner \"test/**/*.test.js\" --node-resolve"
   },
   "devDependencies": {
-    "@open-wc/testing": "2.5.21",
+    "@open-wc/testing": "2.5.22",
     "@web/test-runner": "0.7.3"
   }
 }

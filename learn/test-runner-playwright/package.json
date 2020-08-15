@@ -7,7 +7,7 @@
     "test": "web-test-runner \"test/**/*.test.js\" --node-resolve --playwright --browsers chromium firefox webkit"
   },
   "devDependencies": {
-    "@open-wc/testing": "2.5.21",
+    "@open-wc/testing": "2.5.22",
     "@web/test-runner": "0.7.3",
     "@web/test-runner-playwright": "0.5.1"
   }
