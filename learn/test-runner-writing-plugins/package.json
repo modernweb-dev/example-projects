@@ -8,7 +8,7 @@
     "test:watch": "web-test-runner --watch"
   },
   "devDependencies": {
-    "@open-wc/testing": "2.5.22",
+    "@open-wc/testing": "2.5.24",
     "@web/test-runner": "0.7.3"
   },
   "dependencies": {

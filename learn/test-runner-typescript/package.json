@@ -10,7 +10,7 @@
     "test:watch": "web-test-runner \"test/**/*.test.js\" --node-resolve --watch"
   },
   "devDependencies": {
-    "@open-wc/testing": "2.5.21",
+    "@open-wc/testing": "2.5.24",
     "@web/test-runner": "0.7.2",
     "typescript": "4.0.2"
   }
