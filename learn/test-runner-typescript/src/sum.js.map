@@ -1,0 +1,1 @@
+{"version":3,"file":"sum.js","sourceRoot":"","sources":["sum.ts"],"names":[],"mappings":"AAAA,MAAM,UAAU,GAAG,CAAC,GAAG,OAAiB;IACtC,IAAI,GAAG,GAAG,CAAC,CAAC;IACZ,KAAK,MAAM,MAAM,IAAI,OAAO,EAAE;QAC5B,GAAG,IAAI,MAAM,CAAC;KACf;IACD,OAAO,GAAG,CAAC;AACb,CAAC"}
