@@ -22,6 +22,7 @@ jobs:
             # Running multiple playwright does not work?
             # learn/test-runner-playwright,
             learn/test-runner-responsive,
+            learn/test-runner-typescript,
             learn/test-runner-writing-plugins,
           ]
     steps:
