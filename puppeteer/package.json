@@ -16,7 +16,7 @@
     "lit-html": "1.2.1"
   },
   "devDependencies": {
-    "@open-wc/testing": "2.5.22",
+    "@open-wc/testing": "2.5.24",
     "@web/test-runner": "0.7.3",
     "@web/test-runner-puppeteer": "0.6.1"
   }
