@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@open-wc/testing": "2.5.24",
-    "@web/test-runner": "0.7.4"
+    "@web/test-runner": "0.7.5"
   },
   "dependencies": {
     "@popperjs/core": "2.4.4"
