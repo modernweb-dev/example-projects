@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@open-wc/testing": "2.5.24",
-    "@web/test-runner": "0.7.2",
+    "@web/test-runner": "0.7.4",
     "typescript": "4.0.2"
   }
 }
