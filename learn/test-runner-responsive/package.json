@@ -4,12 +4,13 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "test": "web-test-runner \"test/**/*.test.js\" --node-resolve",
-    "test:watch": "web-test-runner \"test/**/*.test.js\" --node-resolve --watch"
+    "test": "web-test-runner \"test/**/*.test.{html,js}\" --node-resolve",
+    "test:watch": "web-test-runner \"test/**/*.test.{html,js}\" --node-resolve --watch"
   },
   "devDependencies": {
     "@open-wc/testing": "2.5.24",
     "@web/test-runner": "0.7.4",
-    "@web/test-runner-commands": "0.1.2"
+    "@web/test-runner-commands": "0.1.2",
+    "@web/test-runner-mocha": "^0.3.2"
   }
 }
