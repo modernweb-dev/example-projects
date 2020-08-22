@@ -10,7 +10,6 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "start": "es-dev-server --app-index demo/projects/lit-element-ts/demo/index.html --node-resolve --open --watch",
     "test": "yarn build && web-test-runner tsc-out/test/**/*.test.js --node-resolve",
     "test:watch": "yarn build --watch & web-test-runner dist/test/**/*.test.js --node-resolve --watch",
     "tsc:watch": "tsc --watch"
@@ -23,8 +22,6 @@
     "@open-wc/testing": "2.5.24",
     "@types/node": "13.13.15",
     "@web/test-runner": "0.7.5",
-    "deepmerge": "4.2.2",
-    "es-dev-server": "1.57.3",
     "tslib": "2.0.1",
     "typescript": "4.0.2"
   }

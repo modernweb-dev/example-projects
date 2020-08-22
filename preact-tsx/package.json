@@ -13,9 +13,9 @@
     "preact": "10.4.7"
   },
   "devDependencies": {
-    "@bundled-es-modules/chai": "4.2.2",
+    "@esm-bundle/chai": "4.1.5",
     "@web/dev-server-esbuild": "0.2.1",
     "@web/test-runner": "0.7.5",
-    "es-dev-server": "1.57.3"
+    "typescript": "4.0.2"
   }
 }

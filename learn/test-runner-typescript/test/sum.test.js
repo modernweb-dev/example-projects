@@ -1,4 +1,4 @@
-import { expect } from '@open-wc/testing';
+import { expect } from "@esm-bundle/chai";
 import { sum } from '../src/sum.js';
 it('sums up 2 numbers', () => {
     expect(sum(1, 1)).to.equal(2);

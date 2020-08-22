@@ -1,4 +1,4 @@
-import { expect } from "@open-wc/testing";
+import { expect } from "@esm-bundle/chai";
 
 it("ensures that popper still depends on a global process variable", async () => {
   const request = await fetch(

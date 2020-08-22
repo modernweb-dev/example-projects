@@ -1,8 +1,8 @@
-import { expect, fixture, html } from "@open-wc/testing";
 import { createPopper } from "@popperjs/core";
 
 it("can use popper", async () => {
-  const wrapper = await fixture(html`
+  const fixture = document.createElement('div');
+  fixture.innerHTML = `
     <div>
       <style>
         #tooltip {
@@ -17,12 +17,14 @@ it("can use popper", async () => {
       <button id="button" aria-describedby="tooltip">I'm a button</button>
       <div id="tooltip" role="tooltip">I'm a tooltip</div>
     </div>
-  `);
+  `;
+  document.body.appendChild(fixture);
 
-  const button = wrapper.querySelector("#button");
-  const tooltip = wrapper.querySelector("#tooltip");
+  const button = fixture.querySelector("#button");
+  const tooltip = fixture.querySelector("#tooltip");
 
   createPopper(button, tooltip, {
     placement: "right",
   });
+  fixture.remove();
 });

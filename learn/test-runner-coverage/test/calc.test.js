@@ -1,4 +1,4 @@
-import { expect } from "@open-wc/testing";
+import { expect } from "@esm-bundle/chai";
 import { calc } from "../src/calc.js";
 
 it("does plus for 2 numbers", () => {

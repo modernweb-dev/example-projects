@@ -1,5 +1,5 @@
 import { h } from 'preact';
-import { expect } from '@bundled-es-modules/chai';
+import { expect } from '@esm-bundle/chai';
 import App from '../src/App';
 import { fixture } from './test-helpers';
 
@@ -15,5 +15,5 @@ afterEach(() => {
 });
 
 it('renders a hello world message', () => {
-  expect(element.textContent).to.include('Hello, World!');
+  expect(element!.textContent).to.include('Hello, World!');
 });
