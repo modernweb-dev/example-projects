@@ -8,7 +8,6 @@
   "main": "index.js",
   "module": "index.js",
   "scripts": {
-    "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch",
     "test": "web-test-runner test/**/*.test.js --coverage --node-resolve",
     "test:watch": "web-test-runner test/**/*.test.js --node-resolve --watch"
   },
@@ -18,8 +17,6 @@
   },
   "devDependencies": {
     "@open-wc/testing": "2.5.24",
-    "@web/test-runner": "0.7.5",
-    "deepmerge": "4.2.2",
-    "es-dev-server": "1.57.3"
+    "@web/test-runner": "0.7.5"
   }
 }

@@ -1,4 +1,4 @@
-import { expect } from '@open-wc/testing';
+import { expect } from "@esm-bundle/chai";
 import { setViewport } from '@web/test-runner-commands';
 import { isMobile } from '../src/isMobile';
 

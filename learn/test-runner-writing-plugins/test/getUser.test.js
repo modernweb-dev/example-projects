@@ -1,4 +1,4 @@
-import { expect } from "@open-wc/testing";
+import { expect } from "@esm-bundle/chai";
 import { getUser } from "../src/getUser.js";
 
 it("can get meta data via a userId", async () => {

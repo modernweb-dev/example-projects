@@ -8,7 +8,6 @@
   "main": "index.js",
   "module": "index.js",
   "scripts": {
-    "start": "es-dev-server --app-index demo/projects/lit-element-ts/demo/index.html --node-resolve --open --watch",
     "test": "web-test-runner test/**/*.test.ts --node-resolve",
     "test:watch": "web-test-runner test/**/*.test.ts --node-resolve --watch",
     "tsc:watch": "tsc --watch"
@@ -22,8 +21,6 @@
     "@types/node": "13.13.15",
     "@web/dev-server-esbuild": "0.2.1",
     "@web/test-runner": "0.7.5",
-    "deepmerge": "4.2.2",
-    "es-dev-server": "1.57.3",
     "tslib": "2.0.1",
     "typescript": "4.0.2"
   }
