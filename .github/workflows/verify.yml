@@ -17,13 +17,13 @@ jobs:
             preact-tsx,
             puppeteer,
             playwright,
-            learn/test-runner-getting-started,
-            learn/test-runner-watch-and-debug,
+            guides/test-runner-getting-started,
+            guides/test-runner-watch-and-debug,
             # Running multiple playwright does not work?
-            # learn/test-runner-playwright,
-            learn/test-runner-responsive,
-            learn/test-runner-typescript,
-            learn/test-runner-writing-plugins,
+            # guides/test-runner-playwright,
+            guides/test-runner-responsive,
+            guides/test-runner-typescript,
+            guides/test-runner-writing-plugins,
           ]
     steps:
       - uses: actions/checkout@v2
