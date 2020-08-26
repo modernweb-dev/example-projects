@@ -17,6 +17,7 @@ jobs:
             preact-tsx,
             puppeteer,
             playwright,
+            import-maps,
             guides/test-runner-getting-started,
             guides/test-runner-watch-and-debug,
             # Running multiple playwright does not work?
