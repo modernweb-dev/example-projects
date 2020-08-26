@@ -20,7 +20,7 @@
     "@open-wc/testing": "2.5.24",
     "@types/node": "13.13.15",
     "@web/dev-server-esbuild": "0.2.1",
-    "@web/test-runner": "0.7.8",
+    "@web/test-runner": "0.7.10",
     "tslib": "2.0.1",
     "typescript": "4.0.2"
   }
