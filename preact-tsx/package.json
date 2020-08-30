@@ -5,7 +5,8 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "start": "es-dev-server",
+    "start": "web-dev-server --open demo/ --node-resolve",
+    "start:watch": "web-dev-server --open demo/ --node-resolve --watch",
     "test": "web-test-runner test/**/*.test.tsx",
     "test:watch": "web-test-runner test/**/*.test.tsx --watch"
   },
@@ -14,6 +15,7 @@
   },
   "devDependencies": {
     "@esm-bundle/chai": "4.1.5",
+    "@web/dev-server": "0.0.1",
     "@web/dev-server-esbuild": "0.2.2",
     "@web/test-runner": "0.7.12",
     "typescript": "4.0.2"
