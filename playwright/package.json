@@ -8,6 +8,8 @@
   "main": "index.js",
   "module": "index.js",
   "scripts": {
+    "start": "web-dev-server --open demo/ --node-resolve",
+    "start:watch": "web-dev-server --open demo/ --node-resolve --watch",
     "test": "web-test-runner test/**/*.test.js --coverage --node-resolve --playwright --browsers chromium firefox",
     "test:watch": "web-test-runner test/**/*.test.js --node-resolve --watch"
   },
@@ -18,6 +20,7 @@
   "devDependencies": {
     "@open-wc/testing": "2.5.25",
     "@web/test-runner": "0.7.12",
+    "@web/dev-server": "0.0.1",
     "@web/test-runner-playwright": "0.5.4"
   }
 }

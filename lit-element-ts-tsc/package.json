@@ -10,9 +10,10 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
+    "start": "web-dev-server --open demo/ --node-resolve",
+    "start:watch": "web-dev-server --open demo/ --node-resolve --watch",
     "test": "yarn build && web-test-runner tsc-out/test/**/*.test.js --node-resolve",
-    "test:watch": "yarn build --watch & web-test-runner dist/test/**/*.test.js --node-resolve --watch",
-    "tsc:watch": "tsc --watch"
+    "test:watch": "web-test-runner dist/test/**/*.test.js --node-resolve --watch"
   },
   "dependencies": {
     "lit-element": "2.4.0",
@@ -22,6 +23,7 @@
     "@open-wc/testing": "2.5.25",
     "@types/node": "13.13.15",
     "@web/test-runner": "0.7.12",
+    "@web/dev-server": "0.0.1",
     "tslib": "2.0.1",
     "typescript": "4.0.2"
   }

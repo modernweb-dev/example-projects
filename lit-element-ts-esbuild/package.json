@@ -8,9 +8,12 @@
   "main": "index.js",
   "module": "index.js",
   "scripts": {
+    "start": "web-dev-server --open demo/ --node-resolve",
+    "start:watch": "web-dev-server --open demo/ --node-resolve --watch",
     "test": "web-test-runner test/**/*.test.ts --node-resolve",
     "test:watch": "web-test-runner test/**/*.test.ts --node-resolve --watch",
-    "tsc:watch": "tsc --watch"
+    "build": "tsc",
+    "build:watch": "tsc --watch"
   },
   "dependencies": {
     "lit-element": "2.4.0",
@@ -19,6 +22,7 @@
   "devDependencies": {
     "@open-wc/testing": "2.5.25",
     "@types/node": "13.13.15",
+    "@web/dev-server": "0.0.1",
     "@web/dev-server-esbuild": "0.2.2",
     "@web/test-runner": "0.7.12",
     "tslib": "2.0.1",
