@@ -23,3 +23,5 @@ dist
 tsconfig.tsbuildinfo
 /*/dist
 /*/tsc-out
+
+/*/screenshots

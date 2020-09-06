@@ -18,6 +18,7 @@ jobs:
             puppeteer,
             playwright,
             import-maps,
+            visual-regression,
             guides/test-runner-getting-started,
             guides/test-runner-watch-and-debug,
             # Running multiple playwright does not work?
