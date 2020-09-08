@@ -21,6 +21,6 @@
     "@open-wc/testing": "2.5.25",
     "@web/test-runner": "0.7.21",
     "@web/dev-server": "0.0.7",
-    "@web/test-runner-playwright": "0.5.5"
+    "@web/test-runner-playwright": "0.5.6"
   }
 }
