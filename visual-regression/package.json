@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@open-wc/testing": "2.5.26",
-    "@web/dev-server": "0.0.9",
+    "@web/dev-server": "0.0.10",
     "@web/test-runner": "0.7.24",
     "@web/test-runner-visual-regression": "0.1.6"
   }
