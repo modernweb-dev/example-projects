@@ -12,6 +12,7 @@ jobs:
             lit-element,
             lit-element-ts-esbuild,
             lit-element-ts-tsc,
+            html-test,
             preact-htm,
             preact-jsx,
             preact-tsx,
