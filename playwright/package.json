@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@open-wc/testing": "2.5.27",
-    "@web/test-runner": "0.7.32",
+    "@web/test-runner": "0.7.34",
     "@web/dev-server": "0.0.12",
     "@web/test-runner-playwright": "0.5.7"
   }
