@@ -20,6 +20,7 @@ jobs:
             playwright,
             import-maps,
             visual-regression,
+            saucelabs,
             guides/test-runner-getting-started,
             guides/test-runner-watch-and-debug,
             # Running multiple playwright does not work?
@@ -43,3 +44,6 @@ jobs:
       - name: Test
         working-directory: ${{ matrix.project }}
         run: npm run test
+        env:
+          SAUCE_ACCESS_KEY: ${{ secrets.SAUCE_ACCESS_KEY }}
+          SAUCE_USERNAME: ${{ secrets.SAUCE_USERNAME }}
