@@ -20,7 +20,7 @@
     "lit-html": "1.3.0"
   },
   "devDependencies": {
-    "@open-wc/testing": "2.5.27",
+    "@open-wc/testing": "2.5.28",
     "@types/node": "13.13.15",
     "@web/test-runner": "0.7.40",
     "@web/dev-server": "0.0.12",
