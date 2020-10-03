@@ -18,7 +18,7 @@
     "lit-html": "1.3.0"
   },
   "devDependencies": {
-    "@open-wc/testing": "2.5.28",
+    "@open-wc/testing": "2.5.29",
     "@web/dev-server": "0.0.12",
     "@web/test-runner": "0.7.40",
     "@web/test-runner-visual-regression": "0.1.6"
