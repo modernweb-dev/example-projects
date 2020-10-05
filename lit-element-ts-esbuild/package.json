@@ -24,7 +24,7 @@
     "@types/node": "13.13.15",
     "@web/dev-server": "0.0.13",
     "@web/dev-server-esbuild": "0.2.4",
-    "@web/test-runner": "0.7.41",
+    "@web/test-runner": "0.7.42",
     "tslib": "2.0.1",
     "typescript": "4.0.3"
   }
