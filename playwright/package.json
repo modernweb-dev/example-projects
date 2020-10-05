@@ -10,7 +10,7 @@
   "scripts": {
     "start": "web-dev-server --open demo/ --node-resolve",
     "start:watch": "web-dev-server --open demo/ --node-resolve --watch",
-    "test": "web-test-runner test/**/*.test.js --coverage --node-resolve --playwright --browsers chromium firefox",
+    "test": "web-test-runner test/**/*.test.js --coverage --node-resolve --playwright --browsers chromium firefox webkit",
     "test:watch": "web-test-runner test/**/*.test.js --node-resolve --watch"
   },
   "dependencies": {
@@ -19,8 +19,8 @@
   },
   "devDependencies": {
     "@open-wc/testing": "2.5.29",
-    "@web/test-runner": "0.7.42",
+    "@web/test-runner": "0.8.1",
     "@web/dev-server": "0.0.13",
-    "@web/test-runner-playwright": "0.5.8"
+    "@web/test-runner-playwright": "0.6.0"
   }
 }

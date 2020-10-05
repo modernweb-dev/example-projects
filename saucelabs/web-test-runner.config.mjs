@@ -27,9 +27,9 @@ const sharedCapabilities = {
 export default {
   concurrentBrowsers: 2,
   concurrency: 6,
-  browserStartTimeout: 1000 * 30,
-  sessionStartTimeout: 1000 * 30,
-  sessionFinishTimeout: 1000 * 30,
+  browserStartTimeout: 1000 * 30 * 5,
+  sessionStartTimeout: 1000 * 30 * 5,
+  sessionFinishTimeout: 1000 * 30 * 5,
   browsers: [
     sauceLabsLauncher({
       ...sharedCapabilities,
