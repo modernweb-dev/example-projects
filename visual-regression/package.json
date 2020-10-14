@@ -21,6 +21,6 @@
     "@open-wc/testing": "2.5.29",
     "@web/dev-server": "0.0.13",
     "@web/test-runner": "0.9.1",
-    "@web/test-runner-visual-regression": "0.2.0"
+    "@web/test-runner-visual-regression": "0.2.1"
   }
 }
