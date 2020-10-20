@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@esm-bundle/chai": "4.1.5",
-    "@web/test-runner": "0.9.4",
+    "@web/test-runner": "0.9.5",
     "@web/dev-server": "0.0.15"
   }
 }
