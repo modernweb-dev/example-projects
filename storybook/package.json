@@ -1,0 +1,22 @@
+{
+  "name": "@web/demo-lit-element",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Webcomponent lit-element following open-wc recommendations",
+  "license": "MIT",
+  "author": "my-element",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "start": "web-dev-server --config .storybook/server.config.mjs"
+  },
+  "dependencies": {
+    "lit-element": "2.4.0",
+    "lit-html": "1.3.0"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "2.5.32",
+    "@web/dev-server": "0.0.21",
+    "@web/dev-server-storybook": "0.2.0"
+  }
+}
