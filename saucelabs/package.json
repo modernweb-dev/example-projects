@@ -21,7 +21,7 @@
     "@open-wc/testing": "2.5.32",
     "@web/dev-server": "0.0.21",
     "@web/dev-server-legacy": "0.1.6",
-    "@web/test-runner": "0.9.10",
+    "@web/test-runner": "0.9.11",
     "@web/test-runner-saucelabs": "0.1.1"
   }
 }
