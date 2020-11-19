@@ -1,10 +1,13 @@
 import { expect } from "@esm-bundle/chai";
-import { html } from "htm/preact";
+import React from 'react';
+import htm from "htm";
 import App from "../src/App";
 import { fixture } from "./test-helpers";
 
 let element;
 let restoreFixture;
+
+const html = htm.bind(React.createElement);
 
 beforeEach(() => {
   ({ element, restoreFixture } = fixture(html` <${App} /> `));
