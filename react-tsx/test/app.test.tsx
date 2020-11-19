@@ -1,4 +1,4 @@
-import { h } from 'preact';
+import React from 'react';
 import { expect } from '@esm-bundle/chai';
 import App from '../src/App';
 import { fixture } from './test-helpers';

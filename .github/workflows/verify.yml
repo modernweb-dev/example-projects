@@ -28,6 +28,9 @@ jobs:
             guides/test-runner-responsive,
             guides/test-runner-typescript,
             guides/test-runner-writing-plugins,
+            react-htm,
+            react-jsx,
+            react-tsx
           ]
     steps:
       - uses: actions/checkout@v2
