@@ -11,8 +11,8 @@
     "test:watch": "web-test-runner test/**/*.test.jsx --watch"
   },
   "dependencies": {
-    "react": "npm:@pika/react@^16.13.1",
-    "react-dom": "npm:@pika/react-dom@^16.13.1"
+    "react": "npm:@pika/react@16.13.1",
+    "react-dom": "npm:@pika/react-dom@16.13.1"
   },
   "devDependencies": {
     "@esm-bundle/chai": "4.1.5",
