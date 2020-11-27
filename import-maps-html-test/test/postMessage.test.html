@@ -1,0 +1,37 @@
+<html>
+<head>
+  <!-- the import map to use in our test -->
+  <script type="importmap">
+      {
+        "imports": {
+          "../src/postData.js": "./mocks/postData.js"
+        }
+      }
+    </script>
+</head>
+
+<body>
+<script type="module">
+  import { runTests } from '@web/test-runner-mocha';
+  import { expect } from '@esm-bundle/chai';
+  // import inside will resolve to ./mocks/postData.js
+  import { sendMessage } from '../src/postMessage.js';
+  // resolves to ./mocks/postData.js
+  import { postData } from '../src/postData.js';
+
+  runTests(() => {
+    beforeEach(() => {
+      postData.reset();
+    });
+
+    describe('postMessage()', () => {
+      it('calls postData', async () =>  {
+        await sendMessage('foo');
+        expect(postData.callCount).to.equal(1);
+        expect(postData.getCall(0).args).to.eql(['message', { message: 'foo' }]);
+      });
+    });
+  });
+</script>
+</body>
+</html>
