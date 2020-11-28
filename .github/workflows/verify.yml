@@ -19,6 +19,7 @@ jobs:
             puppeteer,
             playwright,
             import-maps,
+            mock-es-module,
             visual-regression,
             saucelabs,
             guides/test-runner-getting-started,
