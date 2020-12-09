@@ -18,8 +18,8 @@ const sharedCapabilities = {
     // if you are running tests in a CI, the build id might be available as an
     // environment variable. this is useful for identifying test runs
     // this is for example the name for github actions
-    build: `my project ${process.env.GITHUB_REF ?? "local"} build ${
-      process.env.GITHUB_RUN_NUMBER ?? ""
+    build: `my project ${process.env.GITHUB_REF || "local"} build ${
+      process.env.GITHUB_RUN_NUMBER || ""
     }`,
   },
 };

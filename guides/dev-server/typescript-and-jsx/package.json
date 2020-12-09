@@ -1,0 +1,15 @@
+{
+  "name": "@web/guides-dev-server-typescript-and-jsx",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start:ts": "web-dev-server --config web-dev-server.ts.mjs --open /demo/ts.html --node-resolve",
+    "start:jsx": "web-dev-server --config web-dev-server.jsx.mjs --open /demo/jsx.html --node-resolve"
+  },
+  "devDependencies": {
+    "@web/dev-server": "0.0.24",
+    "@web/dev-server-esbuild": "^0.2.8",
+    "preact": "^10.5.7"
+  }
+}

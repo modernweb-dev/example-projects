@@ -1,0 +1,13 @@
+{
+  "name": "@web/guides-dev-server-writing-plugins",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start:inject": "web-dev-server --config web-dev-server.inject.mjs --open /demo/ --node-resolve",
+    "start:env": "web-dev-server --config web-dev-server.env.mjs --open /demo/env.html"
+  },
+  "devDependencies": {
+    "@web/dev-server": "0.0.24"
+  }
+}

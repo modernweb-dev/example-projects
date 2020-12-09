@@ -22,13 +22,11 @@ jobs:
             mock-es-module,
             visual-regression,
             saucelabs,
-            guides/test-runner-getting-started,
-            guides/test-runner-watch-and-debug,
-            # Running multiple playwright does not work?
-            # guides/test-runner-playwright,
-            guides/test-runner-responsive,
-            guides/test-runner-typescript,
-            guides/test-runner-writing-plugins,
+            guides/test-runner/getting-started,
+            guides/test-runner/watch-and-debug,
+            guides/test-runner/playwright,
+            guides/test-runner/responsive,
+            guides/test-runner/typescript,
             react-htm,
             react-jsx,
             react-tsx
