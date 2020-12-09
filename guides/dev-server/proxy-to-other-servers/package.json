@@ -1,0 +1,13 @@
+{
+  "name": "@web/guides-dev-server-proxy-to-other-servers",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "web-dev-server --open /demo/ --node-resolve"
+  },
+  "devDependencies": {
+    "@web/dev-server": "0.0.24",
+    "koa-proxies": "^0.11.0"
+  }
+}

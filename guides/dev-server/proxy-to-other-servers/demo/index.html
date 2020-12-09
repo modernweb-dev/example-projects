@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="message"></div>
+
+    <script type="module">
+      async function fetchMessage() {
+        const response = await fetch("/api/message");
+        const message = await response.text();
+        document.getElementById("message").textContent = message;
+      }
+
+      fetchMessage();
+    </script>
+  </body>
+</html>

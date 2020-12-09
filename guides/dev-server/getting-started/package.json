@@ -1,0 +1,12 @@
+{
+  "name": "@web/guides-dev-server-getting-started",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "web-dev-server --open /demo/"
+  },
+  "devDependencies": {
+    "@web/dev-server": "0.0.24"
+  }
+}
