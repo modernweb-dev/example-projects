@@ -1,0 +1,16 @@
+{
+  "name": "@web/rollup-image",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "start": "web-dev-server --open demo/ --node-resolve"
+  },
+  "devDependencies": {
+    "@rollup/plugin-image": "^2.0.5",
+    "@web/dev-server": "0.0.26",
+    "@web/dev-server-rollup": "^0.2.11"
+  }
+}
