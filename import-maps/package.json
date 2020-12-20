@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@open-wc/testing": "2.5.32",
-    "@web/dev-server-import-maps": "0.0.3",
+    "@web/dev-server-import-maps": "0.0.4",
     "@web/test-runner": "0.10.0"
   }
 }
