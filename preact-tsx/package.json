@@ -11,7 +11,7 @@
     "test:watch": "web-test-runner test/**/*.test.tsx --watch"
   },
   "dependencies": {
-    "preact": "10.5.9"
+    "preact": "10.5.10"
   },
   "devDependencies": {
     "@esm-bundle/chai": "4.1.5",
