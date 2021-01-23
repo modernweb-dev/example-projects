@@ -8,7 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        project: [
+        project:
+          [
             lit-element,
             lit-element-ts-esbuild,
             lit-element-ts-tsc,
@@ -29,7 +30,10 @@ jobs:
             guides/test-runner/typescript,
             react-htm,
             react-jsx,
-            react-tsx
+            react-tsx,
+            snowpack-lit,
+            snowpack-react,
+            snowpack-svelte,
           ]
     steps:
       - uses: actions/checkout@v2
