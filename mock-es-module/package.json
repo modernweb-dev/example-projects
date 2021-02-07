@@ -11,7 +11,7 @@
   "devDependencies": {
     "@esm-bundle/chai": "4.3.0",
     "@open-wc/testing": "2.5.32",
-    "@web/dev-server": "0.1.5",
+    "@web/dev-server": "0.1.6",
     "@web/dev-server-import-maps": "0.0.5",
     "@web/test-runner": "0.12.13",
     "sinon": "9.2.4"
