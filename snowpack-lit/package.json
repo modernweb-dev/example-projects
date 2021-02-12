@@ -13,7 +13,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "7.12.13",
     "@babel/plugin-proposal-decorators": "7.12.13",
-    "@babel/preset-typescript": "7.12.13",
+    "@babel/preset-typescript": "7.12.16",
     "@esm-bundle/chai": "4.3.0",
     "@open-wc/testing": "2.5.32",
     "@snowpack/plugin-babel": "2.1.6",
