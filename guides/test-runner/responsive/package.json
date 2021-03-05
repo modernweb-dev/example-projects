@@ -8,7 +8,7 @@
     "test:watch": "web-test-runner \"test/**/*.test.{html,js}\" --node-resolve --watch"
   },
   "devDependencies": {
-    "@esm-bundle/chai": "4.3.0",
+    "@esm-bundle/chai": "4.3.3",
     "@web/test-runner-mocha": "0.7.2",
     "@web/test-runner": "0.12.15",
     "@web/test-runner-commands": "0.4.1"
