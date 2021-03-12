@@ -7,7 +7,7 @@
     "test": "web-test-runner \"test/**/*.test.js\" --node-resolve --coverage"
   },
   "devDependencies": {
-    "@esm-bundle/chai": "4.3.3",
+    "@esm-bundle/chai": "4.3.4",
     "@web/test-runner": "0.12.16"
   }
 }
