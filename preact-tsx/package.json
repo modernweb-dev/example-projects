@@ -14,7 +14,7 @@
     "preact": "10.5.12"
   },
   "devDependencies": {
-    "@esm-bundle/chai": "4.3.3",
+    "@esm-bundle/chai": "4.3.4",
     "@web/dev-server": "0.1.8",
     "@web/dev-server-esbuild": "0.2.11",
     "@web/test-runner": "0.12.16",
