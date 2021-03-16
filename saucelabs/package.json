@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@open-wc/testing": "2.5.32",
-    "@web/dev-server": "0.1.9",
+    "@web/dev-server": "0.1.10",
     "@web/dev-server-legacy": "0.1.7",
     "@web/test-runner": "0.12.17",
     "@web/test-runner-saucelabs": "0.5.0"
