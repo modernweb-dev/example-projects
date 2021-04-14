@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@open-wc/testing": "2.5.32",
-    "@types/node": "13.13.48",
+    "@types/node": "13.13.49",
     "@web/test-runner": "0.12.19",
     "@web/dev-server": "0.1.11",
     "tslib": "2.2.0",
