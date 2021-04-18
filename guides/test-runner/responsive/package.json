@@ -11,6 +11,6 @@
     "@esm-bundle/chai": "4.3.4",
     "@web/test-runner-mocha": "0.7.2",
     "@web/test-runner": "0.12.19",
-    "@web/test-runner-commands": "0.4.2"
+    "@web/test-runner-commands": "0.4.3"
   }
 }
