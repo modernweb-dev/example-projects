@@ -14,7 +14,7 @@
     "test:watch": "web-test-runner test/**/*.test.js --node-resolve --watch"
   },
   "dependencies": {
-    "lit-element": "2.4.0",
+    "lit-element": "2.5.0",
     "lit-html": "1.4.0"
   },
   "devDependencies": {
