@@ -11,7 +11,7 @@
     "start": "web-dev-server --config .storybook/server.config.mjs"
   },
   "dependencies": {
-    "lit-element": "2.4.0",
+    "lit-element": "2.5.0",
     "lit-html": "1.4.0"
   },
   "devDependencies": {
