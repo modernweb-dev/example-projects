@@ -10,6 +10,6 @@
     "@web/dev-server": "0.1.17"
   },
   "dependencies": {
-    "lit-html": "1.4.0"
+    "lit-html": "1.4.1"
   }
 }

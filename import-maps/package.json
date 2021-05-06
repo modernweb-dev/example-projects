@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "lit-element": "2.5.0",
-    "lit-html": "1.4.0"
+    "lit-html": "1.4.1"
   },
   "devDependencies": {
     "@open-wc/testing": "2.5.33",
