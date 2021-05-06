@@ -16,7 +16,7 @@
     "build:watch": "tsc --watch"
   },
   "dependencies": {
-    "lit-element": "2.5.0",
+    "lit-element": "2.5.1",
     "lit-html": "1.4.1"
   },
   "devDependencies": {
