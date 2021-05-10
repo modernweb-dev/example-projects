@@ -33,7 +33,7 @@
     "@testing-library/react": "11.2.6",
     "@web/test-runner": "0.13.4",
     "chai": "4.3.4",
-    "prettier": "2.2.1",
+    "prettier": "2.3.0",
     "snowpack": "3.3.7"
   },
   "gitHead": "a01616bb0787d56cd782f94cecf2daa12c7594e4"
