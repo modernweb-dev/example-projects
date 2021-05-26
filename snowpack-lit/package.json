@@ -25,6 +25,6 @@
     "@web/test-runner": "0.13.5",
     "prettier": "2.3.0",
     "snowpack": "3.5.1",
-    "typescript": "4.2.4"
+    "typescript": "4.3.2"
   }
 }
