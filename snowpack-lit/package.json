@@ -11,9 +11,9 @@
     "lit-html": "1.4.1"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-class-properties": "7.13.0",
-    "@babel/plugin-proposal-decorators": "7.14.2",
-    "@babel/preset-typescript": "7.13.0",
+    "@babel/plugin-proposal-class-properties": "7.14.5",
+    "@babel/plugin-proposal-decorators": "7.14.5",
+    "@babel/preset-typescript": "7.14.5",
     "@esm-bundle/chai": "4.3.4",
     "@open-wc/testing": "2.5.33",
     "@snowpack/plugin-babel": "2.1.7",
