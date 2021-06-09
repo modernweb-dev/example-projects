@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@esm-bundle/chai": "4.3.4",
-    "@web/test-runner": "0.13.5",
+    "@web/test-runner": "0.13.6",
     "@web/test-runner-playwright": "0.8.6"
   }
 }
