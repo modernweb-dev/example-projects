@@ -17,6 +17,6 @@
     "@esm-bundle/chai": "4.3.4",
     "@web/dev-server": "0.1.17",
     "@web/dev-server-esbuild": "0.2.12",
-    "@web/test-runner": "0.13.8"
+    "@web/test-runner": "0.13.10"
   }
 }
