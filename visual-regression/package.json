@@ -10,6 +10,7 @@
   "scripts": {
     "start": "web-dev-server --open demo/ --node-resolve",
     "start:watch": "web-dev-server --open demo/ --node-resolve --watch",
+    "pretest": "web-test-runner test/**/*.test.js --coverage --node-resolve --update-visual-baseline",
     "test": "web-test-runner test/**/*.test.js --coverage --node-resolve",
     "test:watch": "web-test-runner test/**/*.test.js --node-resolve --watch"
   },
@@ -21,6 +22,6 @@
     "@open-wc/testing": "2.5.33",
     "@web/dev-server": "0.1.18",
     "@web/test-runner": "0.13.13",
-    "@web/test-runner-visual-regression": "0.4.1"
+    "@web/test-runner-visual-regression": "0.6.1"
   }
 }
