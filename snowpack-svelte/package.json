@@ -14,6 +14,6 @@
     "@testing-library/svelte": "3.0.3",
     "@web/test-runner": "0.13.15",
     "chai": "4.3.4",
-    "snowpack": "3.8.3"
+    "snowpack": "3.8.6"
   }
 }
