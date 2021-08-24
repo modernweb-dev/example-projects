@@ -34,7 +34,7 @@
     "@web/test-runner": "0.13.16",
     "chai": "4.3.4",
     "prettier": "2.3.2",
-    "snowpack": "3.8.6"
+    "snowpack": "3.8.7"
   },
   "gitHead": "a01616bb0787d56cd782f94cecf2daa12c7594e4"
 }
