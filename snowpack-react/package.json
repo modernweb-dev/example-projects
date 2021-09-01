@@ -31,7 +31,7 @@
     "@snowpack/plugin-react-refresh": "2.5.0",
     "@snowpack/web-test-runner-plugin": "0.2.2",
     "@testing-library/react": "12.0.0",
-    "@web/test-runner": "0.13.16",
+    "@web/test-runner": "0.13.17",
     "chai": "4.3.4",
     "prettier": "2.3.2",
     "snowpack": "3.8.8"
