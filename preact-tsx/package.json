@@ -18,6 +18,6 @@
     "@web/dev-server": "0.1.22",
     "@web/dev-server-esbuild": "0.2.14",
     "@web/test-runner": "0.13.17",
-    "typescript": "4.4.2"
+    "typescript": "4.4.3"
   }
 }
