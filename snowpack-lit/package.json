@@ -22,7 +22,7 @@
     "@snowpack/web-test-runner-plugin": "0.2.2",
     "@types/mocha": "9.0.0",
     "@types/snowpack-env": "2.3.4",
-    "@web/test-runner": "0.13.17",
+    "@web/test-runner": "0.13.18",
     "prettier": "2.4.1",
     "snowpack": "3.8.8",
     "typescript": "4.4.3"
