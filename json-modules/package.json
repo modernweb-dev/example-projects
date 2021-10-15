@@ -22,6 +22,6 @@
     "@rollup/plugin-json": "4.1.0",
     "@web/dev-server": "0.1.25",
     "@web/dev-server-rollup": "0.3.11",
-    "@web/test-runner": "0.13.19"
+    "@web/test-runner": "0.13.20"
   }
 }
