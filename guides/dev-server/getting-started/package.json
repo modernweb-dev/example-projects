@@ -7,6 +7,6 @@
     "start": "web-dev-server --open /demo/"
   },
   "devDependencies": {
-    "@web/dev-server": "0.1.29"
+    "@web/dev-server": "0.1.30"
   }
 }
