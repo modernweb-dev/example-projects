@@ -11,7 +11,7 @@
     "test:watch": "web-test-runner test/**/*.test.js --watch"
   },
   "dependencies": {
-    "htm": "3.1.0",
+    "htm": "3.1.1",
     "preact": "10.7.1"
   },
   "devDependencies": {
