@@ -5,7 +5,7 @@
     "test": "web-test-runner \"src/**/*.test.js\" --coverage"
   },
   "dependencies": {
-    "svelte": "3.47.0"
+    "svelte": "3.48.0"
   },
   "devDependencies": {
     "@snowpack/plugin-dotenv": "2.2.0",
