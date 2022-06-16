@@ -17,6 +17,6 @@
     "@web/dev-server": "0.1.31",
     "@web/dev-server-rollup": "0.3.17",
     "axios": "0.27.2",
-    "preact": "10.8.0"
+    "preact": "10.8.1"
   }
 }
