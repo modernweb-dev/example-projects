@@ -12,7 +12,7 @@
     "@babel/core": "7.18.10",
     "@babel/plugin-transform-react-jsx": "7.18.10",
     "@rollup/plugin-babel": "5.3.1",
-    "@rollup/plugin-commonjs": "22.0.1",
+    "@rollup/plugin-commonjs": "22.0.2",
     "@rollup/plugin-replace": "4.0.0",
     "@web/dev-server": "0.1.32",
     "@web/dev-server-rollup": "0.3.18",
