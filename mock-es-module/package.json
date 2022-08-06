@@ -12,7 +12,7 @@
     "@esm-bundle/chai": "4.3.4",
     "@open-wc/testing": "2.5.33",
     "@web/dev-server": "0.1.33",
-    "@web/dev-server-import-maps": "0.0.6",
+    "@web/dev-server-import-maps": "0.0.7",
     "@web/test-runner": "0.13.31",
     "sinon": "14.0.0"
   }
