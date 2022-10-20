@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@open-wc/testing": "2.5.33",
-    "@web/test-runner": "0.14.1",
+    "@web/test-runner": "0.15.0",
     "@web/dev-server": "0.1.35",
     "@web/test-runner-puppeteer": "0.10.5"
   }
