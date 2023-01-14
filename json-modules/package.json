@@ -21,7 +21,7 @@
     "@open-wc/testing": "2.5.33",
     "@rollup/plugin-json": "6.0.0",
     "@web/dev-server": "0.1.35",
-    "@web/dev-server-rollup": "0.3.20",
+    "@web/dev-server-rollup": "0.3.21",
     "@web/test-runner": "0.15.0"
   }
 }
