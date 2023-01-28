@@ -16,7 +16,7 @@
     "@rollup/plugin-replace": "5.0.2",
     "@web/dev-server": "0.1.35",
     "@web/dev-server-rollup": "0.3.21",
-    "axios": "1.2.5",
+    "axios": "1.2.6",
     "preact": "10.11.3"
   }
 }
