@@ -9,8 +9,8 @@
     "start:babel": "web-dev-server --config web-dev-server.babel.mjs --open /demo/babel.html --node-resolve"
   },
   "devDependencies": {
-    "@babel/core": "7.20.12",
-    "@babel/plugin-transform-react-jsx": "7.20.13",
+    "@babel/core": "7.21.0",
+    "@babel/plugin-transform-react-jsx": "7.21.0",
     "@rollup/plugin-babel": "6.0.3",
     "@rollup/plugin-commonjs": "24.0.1",
     "@rollup/plugin-replace": "5.0.2",
