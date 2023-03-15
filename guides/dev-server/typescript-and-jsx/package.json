@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@web/dev-server": "0.1.36",
-    "@web/dev-server-esbuild": "0.3.3",
+    "@web/dev-server-esbuild": "0.3.4",
     "preact": "10.13.1"
   }
 }
