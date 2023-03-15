@@ -15,7 +15,7 @@
     "@rollup/plugin-commonjs": "24.0.1",
     "@rollup/plugin-replace": "5.0.2",
     "@web/dev-server": "0.1.36",
-    "@web/dev-server-rollup": "0.3.21",
+    "@web/dev-server-rollup": "0.4.0",
     "axios": "1.3.4",
     "preact": "10.13.1"
   }
