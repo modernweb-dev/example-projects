@@ -14,6 +14,6 @@
     "@web/dev-server": "0.1.36",
     "@web/dev-server-import-maps": "0.0.8",
     "@web/test-runner": "0.15.1",
-    "sinon": "15.0.2"
+    "sinon": "15.0.3"
   }
 }
