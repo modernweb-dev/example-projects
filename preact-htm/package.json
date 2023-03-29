@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "htm": "3.1.1",
-    "preact": "10.13.1"
+    "preact": "10.13.2"
   },
   "devDependencies": {
     "@esm-bundle/chai": "4.3.4",
