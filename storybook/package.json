@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@open-wc/testing": "2.5.33",
-    "@web/dev-server": "0.1.36",
+    "@web/dev-server": "0.1.37",
     "@web/dev-server-storybook": "0.6.1"
   }
 }
