@@ -7,7 +7,7 @@
     "start": "web-dev-server --open /demo/ --node-resolve"
   },
   "devDependencies": {
-    "@web/dev-server": "0.1.36"
+    "@web/dev-server": "0.1.37"
   },
   "dependencies": {
     "lit-html": "1.4.1"
