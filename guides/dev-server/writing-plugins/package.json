@@ -8,6 +8,6 @@
     "start:env": "web-dev-server --config web-dev-server.env.mjs --open /demo/env.html"
   },
   "devDependencies": {
-    "@web/dev-server": "0.1.37"
+    "@web/dev-server": "0.1.38"
   }
 }
