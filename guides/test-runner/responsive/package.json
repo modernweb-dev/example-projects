@@ -10,7 +10,7 @@
   "devDependencies": {
     "@esm-bundle/chai": "4.3.4",
     "@web/test-runner-mocha": "0.7.5",
-    "@web/test-runner": "0.15.1",
+    "@web/test-runner": "0.15.3",
     "@web/test-runner-commands": "0.6.5"
   }
 }
