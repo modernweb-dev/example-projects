@@ -21,6 +21,6 @@
     "@open-wc/testing": "2.5.33",
     "@web/test-runner": "0.15.3",
     "@web/dev-server": "0.1.38",
-    "@web/test-runner-puppeteer": "0.12.0"
+    "@web/test-runner-puppeteer": "0.12.1"
   }
 }
