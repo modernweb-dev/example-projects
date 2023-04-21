@@ -7,7 +7,7 @@
     "start": "web-dev-server --open /demo/ --node-resolve"
   },
   "devDependencies": {
-    "@web/dev-server": "0.1.38",
+    "@web/dev-server": "0.2.0",
     "koa-proxies": "0.12.3"
   }
 }
