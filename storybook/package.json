@@ -15,7 +15,7 @@
     "lit-html": "1.4.1"
   },
   "devDependencies": {
-    "@open-wc/testing": "2.5.33",
+    "@open-wc/testing": "3.2.2",
     "@web/dev-server": "0.2.1",
     "@web/dev-server-storybook": "0.7.0"
   }
