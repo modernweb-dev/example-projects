@@ -16,16 +16,15 @@
     "build:watch": "tsc --watch"
   },
   "dependencies": {
-    "lit-element": "2.5.1",
-    "lit-html": "1.4.1"
+    "lit": "^3.1.2"
   },
   "devDependencies": {
-    "@open-wc/testing": "2.5.33",
-    "@types/node": "14.18.42",
-    "@web/dev-server": "0.2.1",
+    "@open-wc/testing": "^4.0.0",
+    "@types/node": "^20.11.25",
+    "@web/dev-server": "^0.4.3",
     "@web/dev-server-esbuild": "0.4.1",
-    "@web/test-runner": "0.16.0",
-    "tslib": "2.5.0",
-    "typescript": "5.0.4"
+    "@web/test-runner": "^0.18.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.2"
   }
 }
