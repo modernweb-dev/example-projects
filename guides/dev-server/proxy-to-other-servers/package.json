@@ -8,6 +8,6 @@
   },
   "devDependencies": {
     "@web/dev-server": "0.2.1",
-    "koa-proxies": "0.12.3"
+    "koa-proxies": "0.12.4"
   }
 }
