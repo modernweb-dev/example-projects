@@ -25,6 +25,6 @@
     "@web/test-runner": "0.16.0",
     "@web/dev-server": "0.4.5",
     "tslib": "2.6.3",
-    "typescript": "5.0.4"
+    "typescript": "5.4.5"
   }
 }
