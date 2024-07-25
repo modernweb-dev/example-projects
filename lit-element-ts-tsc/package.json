@@ -23,7 +23,7 @@
     "@open-wc/testing": "2.5.33",
     "@types/node": "14.18.63",
     "@web/test-runner": "0.16.0",
-    "@web/dev-server": "0.4.5",
+    "@web/dev-server": "0.4.6",
     "tslib": "2.6.3",
     "typescript": "5.4.5"
   }
