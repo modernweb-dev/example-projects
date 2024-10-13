@@ -15,6 +15,7 @@ export class MyElement extends LitElement {
 
   __increment() {
     this.counter += 1;
+    this.requestUpdate();
   }
 
   render() {
