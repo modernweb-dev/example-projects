@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@esm-bundle/chai": "4.3.4",
-    "@types/mocha": "10.0.7",
+    "@types/mocha": "10.0.10",
     "@web/test-runner": "0.16.0",
     "typescript": "5.4.5"
   }
